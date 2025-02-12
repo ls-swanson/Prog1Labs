@@ -15,6 +15,7 @@ def fibonacci(x):
             count += 1
         return c
 def is_prime(n):
+    n = abs(n)
     a = 2
     isprime = True
     while a < n:
